@@ -1,0 +1,44 @@
+CREATE TABLE User1 (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    fullname VARCHAR(255),
+    email VARCHAR(255) UNIQUE NOT NULL,
+    phonenum VARCHAR(20),
+    avatar VARCHAR(255),
+    role VARCHAR(50),
+    password VARCHAR(255) NOT NULL,
+    address TEXT
+);
+
+CREATE TABLE Category1 (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Product1 (
+    ID INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    cid INT,
+    image VARCHAR(255),
+    describe TEXT,
+    FOREIGN KEY (cid) REFERENCES Category1(id) ON DELETE SET NULL
+);
+
+CREATE TABLE Order1 (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    date DATETIME DEFAULT CURRENT_TIMESTAMP,
+    cid INT,
+    totalmoney DECIMAL(10,2) NOT NULL,
+    FOREIGN KEY (cid) REFERENCES User1(id) ON DELETE CASCADE
+);
+
+CREATE TABLE OrderLine1 (
+    oid INT,
+    pid INT,
+    quantity INT NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
+    PRIMARY KEY (oid, pid),
+    FOREIGN KEY (oid) REFERENCES Order1(id) ON DELETE CASCADE,
+    FOREIGN KEY (pid) REFERENCES Product1(ID) ON DELETE CASCADE
+);
