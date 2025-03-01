@@ -3,15 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/src/java/controller/RegisterServlet.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/web/index.html</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/src/java/dal/DBContext.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/src/java/filter/FilterForCURD.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/nbproject/build-impl.xml</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/src/java/controller/ChangePassServlet.java</file>
-            <file>file:/C:/Users/admin/Documents/NetBeansProjects/HolaCafeteriaa/src/java/controller/ChangeProfileServlet.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/web/index.html</file>
+            <file>file:/D:/Workspace/Java-Shop-1/src/java/dal/UserDAO.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/src/java/dal/OrderDAO.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/src/java/dal/ProductDAO.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/web/login.jsp</file>
+            <file>file:/D:/Workspace/Java-Shop-1/web/add_product.jsp</file>
+            <file>file:/D:/Workspace/Java-Shop-1/web/add_category.jsp</file>
+            <file>file:/D:/Workspace/Java-Shop-1/src/java/dal/DBContext.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/src/java/dal/DAO.java</file>
+            <file>file:/D:/Workspace/Java-Shop-1/web/home.jsp</file>
         </group>
     </open-files>
 </project-private>

@@ -4,7 +4,7 @@
  */
 package dal;
 
-import static dal.DAO.INSTANCE;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
