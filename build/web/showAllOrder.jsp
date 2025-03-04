@@ -23,14 +23,14 @@
             <!-- Top box -->
             <!-- Logo & Site Name -->
             <div class="placeholder">
-                <div class="parallax-window" data-parallax="scroll" data-image-src="img/360_F_652123212_nGtoAqRmPtLHyPaAnrbNz6Hxttm0cmAN.jpg">
+                <div class="parallax-window" data-parallax="scroll" data-image-src="img/bm02-banner.jpg">
                     <div class="tm-header">
                         <div class="row tm-header-inner">
                             <div class="col-md-6 col-12">
                                 <img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
                                 <div class="tm-site-text-box">
                                     <h1 class="tm-site-title">Hola Cafeteria</h1>
-                                    <h6 class="tm-site-description">Best for students in HOLA</h6>	
+                                    <h6 class="tm-site-description">Silicone Sealant</h6>	
                                 </div>
                             </div>
                             <nav class="col-md-8 col-12 tm-nav">
@@ -253,36 +253,8 @@
                     </div>
                 </div>
             </div>
-            <footer class="tm-footer">
-                <div class="container-fluid">
-                    <h1 class="text-center">Contact Address</h1>
-                    <hr>
-                    <div class="row">
+                        <jsp:include page="footer.jsp" />
 
-                        <div class="col-md-6">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59584.16344816163!2d105.55262083359368!3d21.03227725056066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345b465a4e65fb%3A0xaae6040cfabe8fe!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBGUFQ!5e0!3m2!1svi!2s!4v1665770215510!5m2!1svi!2s" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        </div>
-
-                        <div class="col-md-6" id="contact2">
-                            <h3>Our Address</h3>
-                            <hr align="left" width="50%">
-                            <address>
-                                Somewhere in HOLA
-                            </address>
-                            <a href="tel:0971364203" class="tm-contact-link">
-                                <i class="fas fa-phone tm-contact-icon"></i><span>0971742946</span>
-                            </a><br>
-                            <a href="mailto:nbdung0000@gmail.com" class="tm-contact-link">
-                                <i class="fas fa-envelope tm-contact-icon"></i><span>phuongnmhe186354@fpt.edu.vn</span>
-                            </a>
-                            <div class="tm-contact-social">
-                                <a href="https://www.facebook.com/nbdung.nepo" class="tm-social-link"><i class="fab fa-facebook tm-social-icon"></i></a>
-                                <a href="https://www.instagram.com/nbdung00/" class="tm-social-link"><i class="fab fa-instagram tm-social-icon"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
         </div>
         <script src="js/jquery.min.js"></script>
         <script src="js/parallax.min.js"></script>
